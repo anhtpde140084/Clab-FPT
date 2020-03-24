@@ -1,0 +1,19 @@
+Smith was checked into room 0 
+Owens was checked into room 1 
+Davis was checked into room 2 
+Sorry, there is no occupant named Owens
+Owens was checked out of room 1
+Sorry, there is no occupant named Owens
+Smith is currently staying in room 0
+Sorry, there is no occupant named Owens
+Sorry, there is no occupant named Owens
+Sorry, there is no occupant named Owens
+Sorry, there is no occupant named Owens
+Sorry, there is no occupant named Owens
+Sorry, there is no occupant named Owens
+Sorry, there is no occupant named Owens
+Sorry, there is no occupant named Owens
+Sorry, there is no occupant named Owens
+Walsh was checked into room 1 
+Name	Romm number	Number of ocuupants
+ Smith	-1	-1 Walsh	0	-1 Davis	4200714	-1

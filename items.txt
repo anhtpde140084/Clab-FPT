@@ -1,0 +1,5 @@
+400     Corn      0.99    	C
+100     Salmon    7.99    	M
+500     Dishes    3.45    	N
+300     Milk      1.89    	D
+800     Chicken   5.99    	M
