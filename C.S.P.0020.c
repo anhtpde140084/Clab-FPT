@@ -9,6 +9,18 @@ int idNumber[100];
 char name[100][30];
 double cost[100];
 char category[100];
+int menu()
+{
+    int choice;
+    printf("Please make one of the following selections\n");
+    printf("1. Add new item\n2. Delete item\n");
+    printf("3. Change the cost of an item\n");
+    printf("4. Search for item\n");
+    printf("5. Display inventory details\n");
+    printf("6. Quit\nYour choice ?: ");
+    scanf("%d", &choice);
+    return choice;
+}
 
 int findata(int id)
 {
@@ -113,18 +125,7 @@ void display()
     for (int i = 0; i < productCount; i++)
         printf("%10d\t%10s\t%-15lf\t%c\n", idNumber[i], name[i], cost[i], category[i]);
 }
-int menu()
-{
-    int choice;
-    printf("Please make one of the following selections\n");
-    printf("1. Add new item\n2. Delete item\n");
-    printf("3. Change the cost of an item\n");
-    printf("4. Search for item\n");
-    printf("5. Display inventory details\n");
-    printf("6. Quit\nYour choice ?: ");
-    scanf("%d", &choice);
-    return choice;
-}
+
 void search()
 {
     int id, pos;
